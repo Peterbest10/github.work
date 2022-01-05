@@ -1,28 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+    <title>Bienvenue Sur Web Market</title>
+    <!-- Css dans un fichier separer  -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
 
-    <h1> Cours de github</h1>
-    <h2> Version 2</h2>
 
-<p> Bienvenue sur mon site officiel.
-    Bienvenue et amusez vous sur we vote 
-    et surtout votez en paix
+    <!-- Preloader -->
+    <div class="preloader">
+      <img src="./images/loader.svg" alt="" />
+    </div>
 
-    Bienvenue sur mon site officiel.
-    Bienvenue sur mon site officiel.
-    Bienvenue sur mon site officiel.
-    Bienvenue sur mon site officiel.
-    Bienvenue sur mon site officiel.
-    Bienvenue sur mon site officiel.git 
+      <!-- Logo-->
+    <header class="header">
+      <a href="/" class="logo">Web <span class="pink">Market</span></a>
+
+      <!-- Lien de navigation-->
+      <nav class="navbar">
+        <a href="#home">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#about">À propos de nous</a>
+        <a href="#contact">Contactez-nous</a>
+        <a href="inscription.php" class="btn">Ouvrir Un Compte</a>
+      </nav>
+
+      <!-- Hamburger -->
+      <div class="hamburger">
+        <img src="./images/grid-outline.svg" alt="" />
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="content">
+        <h1 style="font-size: 28px;">Acheter en quelques secondes grâce a web  <span class="pink">Market.</span></h1>
+        <p>
+          grâce a Web  <span class="pink">Market.</span>
+         Vous pouvez acheter en toutes sécurités depuis votre écran de téléphones, tablettes ou laptop.
+         Acheter des aujourd’hui et votre produit sera livrer chez vous dans un délai record.
+         Nos services sont disponibles seulement à port au prince pour le moment, Bientôt nos services serons dans les villes de province.
+
+         <!-- ligne, nos services sont disponibles seulement à port au prince pour le moment. Bientôt nos services serons dans les villes de province. -->
+        </p>
+        <!-- creer un compte-->
+        <a href="registrer/index.php" class="home-btn">Ouvrir Un Compte</a>
+      </div>
+      <div class="image">
+        <img src="./images/johnny_automatic_food_basket.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="top">
+        <h2><span class="pink">Quelle</span> est notre misssion</h2>
+        <p>
+       
+        Notre misssion, est d'offrir les meilleurs services dans le pays, 
+        tout en valorisant la production locale en vendant les produits locales à bas prix.
+       
+        </p>
+      </div>
+
+      <div class="bottom">
+        <div class="box">
+          <img src="./images/delivery-truck-svgrepo-com.svg" alt="" />
+          <h4>Livraison gratuite</h4>
+          <p>
+            L'offre n'est valable que sur votre première achat que vous ferez.
+            Après des frais seront éligibles pour tout achat.
+          </p>
+          <a href="#">Voir Plus <img src="./images/btn-arrow.svg" alt="" /> </a>
+        </div>
+        <div class="box">
+          <img src="./images/vegetables-svgrepo-com.svg" alt="" />
+          <h4>Produits Locales</h4>
+          <p>
+            Si vous voulez acheter des produits locales, 
+            Vous êtes au bon endroit. elles sont de très bonnes qualités, et aussi a bas prix.
+          </p>
+          <a href="#">Voir Plus <img src="./images/btn-arrow.svg" alt="" /> </a>
+        </div>
+        <div class="box">
+          <img src="./images/buy-svgrepo-com.svg" alt="" />
+          <h4>Acheter en ligne</h4>
+          <p>
+            Plus besoin de déplacer, de louer une voiture, ou autre, pour acheter  nous sommes là pour vous acheter des aujourd’hui.
+          </p>
+          <a href="#">Voir plus <img src="./images/btn-arrow.svg" alt="" /> </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About #1 -->
+    <section class="about" id="about">
+      <div class="image">
+        <img src="./images/fast-delivery-truck-svgrepo-com.svg" alt="" />
+      </div>
+      <div class="content">
+        <h3> <span class="pink">Acheter</span> en gros et en détail</h3>
+        <p>
+          Vous voulez acheter des produits en gros ou détail pour votre boutique, nous sommes présent,
+          la livraison fera où vous voulez.</p>
+      
+        <a href="#" class="btn">Contactez-nous</a>
+      </div>
+    </section>
+
+    <!-- About #2 -->
+    <section class="about about-2">
+      <div class="content">
+        <h3>
+          <span class="yellow">Livraison</span> des produits avec les meilleurs livreurs.
+        </h3>
+        <p>
+          Vos produits seront biens protégés n’ayez pas peur, nous avons une équipe de professionnelles,
+de livreurs qui vous livrerons votre produit sans difficultés.
 </p>
+        <a href="#" class="btn">Contactez-nous</a>
+      </div>
 
+      <div class="image">
+        <img src="./images/two-with-carts.svg" alt="" />
+      </div>
+    </section>
 
-</body>
+    <!-- About #3 -->
+    <section class="about about-3" style="gap: 3rem 13rem">
+      <div class="image">
+        <img src="./images/gift-svgrepo-com.svg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3> Web <span class="pink"> Market </span> offrira un cadeau pour votre Bienvenue </h3>
+        <p>
+     Nous offrions une caisse de spaghetti aux utilisateurs qui inscrivons avant la fin du compte à rebours. 
+        </p>
+
+        <!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+        <a href="#" class="btn">Ouvrir Un Compte</a>
+      </div>
+    </section>
+
+  
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="top">
+        <div class="content">
+          <a style="color: #ffffff;" href="" class="logo">Web <span class="pink">Market</span></a>
+          <p style="color: #ffffff;"> 
+            Notre objectif n’est pas de créer une entreprise. Mais de bâtir quelque chose successible de changer le monde.
+          </p>
+        </div>
+
+        <div class="links">
+          <div class="link">
+            <h4>Contact Information</h4>
+            <div>   
+              <span style="color: #ffffff;"> Delmas 60 rue emeric </span>
+            </div>
+            <div>
+              <span style="color: #ffffff;"> webmarket@gmail.com </span>
+            </div>
+          </div>
+
+          <div class="link">
+            <h4>Liens Rapides</h4>
+            <a style="color: #ffffff;" href="#">Accueil</a>
+            <a style="color: #ffffff;" href="#">Services</a>
+            <a style="color: #ffffff;" href="#"> À propos de nous</a>
+            <a style="color: #ffffff;" href="#">Contactez-nous</a>
+          </div>
+
+          <div class="link">
+            <h4>À propos </h4>
+            <a style="color: #ffffff;" href="#">Règles</a>
+            <a style="color: #ffffff;" href="#">Publicités</a>
+            <a style="color: #ffffff;" href="#">Travail</a>
+            <a style="color: #ffffff;" href="#">Cookies</a>
+        
+          </div>
+
+          <div class="link">
+            <h4>Réseaux Sociaux</h4>
+            <div>
+             <i class="fa fa-instagram"  style="font-size:24px;color:#ffffff"></i> 
+              <!-- <span>Instagram</span> -->
+            </div>
+            <div>
+              <a href="#"> <i class="fa fa-twitter"  style="font-size:24px;color:#ffffff"></i> </a>
+              <!-- <span>Twitter</span> -->
+            </div>
+            <div>
+              <a href="#"> <i class="fa fa-facebook"  style="font-size:36px;color:#ffffff"></i> </a>
+              <!-- <span>Facebook</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <p style="color: #ffffff;">Copyright © 2010-2021 Web Market Company inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Go To Top -->
+    <div class="scroll-top">
+      <img src="./images/arrow-up-outline.svg" alt="" />
+    </div>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
 </html>
